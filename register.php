@@ -4,15 +4,15 @@
     </head>
         <body>
             <form action="action.php" method="POST">
-                <table>
+                <table border = "10" cellspacing = "20  ">
                     <tr>
                         <td> Name: </td>
-                        <td> <input type="text" name="name"> </td>
+                        <td> <input type="text" name="name" value = "Clark"> </td>
                     </tr>
                     <tr>
                         <td> Gender: </td>
                         <td>
-                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="male" checked> Male
                             <input type="radio" name="gender" value="female"> Female
                         </td>
                     </tr>
@@ -20,14 +20,15 @@
                         <td> Country: </td>
                         <td>
                             <select name="country">
-                                <option value="PH">Philippines</option>
-                                <option value="AUS">Australia</option>
+                                <option value="select country">SELECT COUNTRY</option>
+                                <option value="PH" >Philippines</option>
+                                <option value="AUS"selected>Australia</option>
                                 <option value="US">United States</option>
                             </select>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colspan="2" align="right">
                             <input type="submit" value="Save">
                         </td>
                     </tr>
