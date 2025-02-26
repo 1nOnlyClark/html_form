@@ -3,7 +3,7 @@
         <title>Document</title>
     </head>
         <body>
-            <form action="action.php" method="POST">
+            <form action="action_page.php" method="POST  ">
                 <table border = "10" cellspacing = "20  ">
                     <tr>
                         <td> Name: </td>
@@ -29,7 +29,7 @@
                     </tr>
                     <tr>
                         <td colspan="2" align="right">
-                            <input type="submit" value="Save">
+                            <input type="submit" value="Save" name = "save button">
                         </td>
                     </tr>
                 </table>
