@@ -3,7 +3,7 @@
         <title>Document</title>
     </head>
         <body>
-            <form action="action_page.php" method="POST  ">
+            <form action="action_page.php" method="POST">
                 <table border = "10" cellspacing = "20  ">
                     <tr>
                         <td> Name: </td>
